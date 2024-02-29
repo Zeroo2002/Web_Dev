@@ -1,0 +1,239 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: rgb(173, 169, 169);
+}
+.card1{
+    z-index: 2;
+    height: 65%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(75, 75, 75);
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+}
+.outer1{
+    height: 90%;
+    width: 25vw;
+    /* background: black; */
+    /* padding: 33px; */
+}
+.more{
+    list-style-type: none;
+    height: auto;
+    width: 65vh;
+    background-color: transparent;
+    display: flex;
+    padding-left: 40px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 47.3%;
+    left: 6.0%;
+    color: black;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+.more li{
+    padding: 6px;   
+}
+.more li:hover{
+    text-decoration: underline;
+}
+.profile_pic{
+    width: 20vw;
+    height: 65vh;
+    background-color: white;
+    /* margin-top: 30px; */
+    margin-left: 41px;
+    padding-top: 30px;
+}
+.aboutme{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(149, 79, 163);
+    display: flex;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 40px;
+}
+.whitepart{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    transform: skewX(-45deg);
+}
+.about{
+    transform: skewX(45deg);
+    display: flex;
+}
+.purplepart{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(149, 79, 163);
+    border-top-right-radius: 8px;
+}
+.pic{
+    padding-top: 20px;
+    padding-left: 70px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(149, 79, 163);
+    border-top-left-radius: 8px;
+}
+.name{
+    background-color: rgb(149, 79, 163);
+    height: 145px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.name2, .name3{
+    font-size: 40px;
+}
+.contact{
+    width: 80%;
+    height: 39px;
+    background-color: rgb(149, 79, 163);
+    padding-left: 15px;
+    display: flex;
+    border-bottom-left-radius: 8px;
+}
+.icon{
+    height: 39px;
+    width: 62px;
+    background-color: rgb(149, 79, 163);
+    padding-right: 50px;
+    padding-top: 4px;
+    border-bottom-right-radius: 8px;
+}
+.email{
+    line-height: 10px;
+}
+.circle1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 64px;
+    right: 20px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.outer2{
+    height: 100%;
+    width: 45vw;
+    background-color: transparent;
+}
+.portfolio{
+    width: 100%;
+    height: 19vh;
+    background-color: transparent;
+    color: black;
+    font-size: 110px;
+    padding-top: 6px;
+    padding-left: 20px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+.pic1{
+    display: flex;
+    margin-top: 10px;
+}
+.flamingo{
+    width: 66%;
+    height: 25vh;
+    padding-top: 10px;
+    padding-left: 23px;
+    display: flex;
+}
+.work{
+    padding-top: 10px;
+    width: 24%;
+    height: 25vh;
+    /* background-color: aqua; */
+    border-radius: 8px;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+.project{
+    height: 77px;
+    width: 90%;
+    background-color: rgb(159, 202, 219);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.award{
+    height: 74px;
+    width: 90%;
+    background-color: rgb(178, 119, 226);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.pic2{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(199, 113, 113); */
+    padding-top: 25px;
+    padding-left: 23px;
+    display: flex;
+}
+.client{
+    height: 100%;
+    width: 25%;
+    border-color: black;
+    background-color: rgb(102, 99, 99);
+    border-radius: 8px;
+}
+.img1{
+    border-radius: 8px;
+    margin: 15px;
+    margin-left: 45px;
+}
+.client_text{
+    position: relative;
+    bottom: 15px;
+    left: 34px;
+    color: white;
+}
+.global{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    margin-left: 64px;
+    border-radius: 8px;
+    display: flex;
+}
+.picture{
+    position: relative;
+    bottom: 15px;
+    height: 100%;
+    width: 50%;
+}
+.design{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(172, 122, 56);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

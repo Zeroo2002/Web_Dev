@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+    color: black;
+}
+
+/* .heading3{
+    text-align: center;
+    color: aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#head3{
+    text-align: center;
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+} */
+
+/* 
+Rules of CSS:
+
+1. Syntax: Rules of Writing
+2. Selector: !important > #id > .class > tagname
+                property: value
+3. Adding CSS: inline > external > internal
+*/
+
+
+/* 
+Box Model: 
+
+height | margin | border | padding
+*/
+
+.box{
+    display: none;
+    background-color: aqua;
+    color: black;
+    height:300px;
+    width: 300px;
+    margin:auto;   /*horizontally element will be centered*/
+    /* border: color, width, style */
+
+    /* border-color: black;
+    border-width: 5px;
+    border-style: solid; */
+
+    /* border: 5px black solid; */
+    /* border-radius: 50%; */
+
+    padding: 80px;      /*It simply adds 80px from every side resulting in increasing the actual size of the box*/
+    box-sizing: border-box;
+}
+
+.disco{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    animation: disco 3s linear infinite;
+}
+
+@keyframes disco{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: cyan;
+    }
+    75%{
+        background-color: orange;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+img{
+    animation: tire 10s linear infinite;
+}
+@keyframes tire {
+    0%{
+        transform: rotate(0deg);
+        margin-left: 0vw;
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-left: 45vw;
+    }
+}

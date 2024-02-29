@@ -1,0 +1,31 @@
+.box{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+}
+
+#big_circle{
+    background-color:white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 30px;
+   
+    
+}
+
+#small_circle{
+     background-color:white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 35%;
+}

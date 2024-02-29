@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cockpit{
+    transform-origin: center;
+    position: relative;
+    overflow: hidden;
+    width: 190px;
+    height: 190px;
+    background-color: rgb(37, 206, 206);
+    border-radius: 100px 30px 60px 60px;
+    z-index: 1;
+}
+.cockpit::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 20px;
+    z-index: 1;
+}
+.cockpit::after{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: -40px;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(139, 137, 137, 0.404);
+    border-radius: 40px;
+    z-index: 1;
+}
+.tail{
+    position: absolute;
+    transform-origin: left center;
+    background-color:transparent;
+    height: 10px;
+    left: 778px;
+    top: 280px;
+    border-top: 20px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 330px solid  rgb(37, 144, 206);
+    border-right: 20px solid transparent;
+    border-bottom-right-radius: 10px;
+}
+.main{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(56, 54, 54);
+    top: 225px;
+    left: 690px;
+}
+.rotor{
+    width: 600px;
+    height: 600px;
+    border-radius: 350px;
+    background-color: #a299ab;
+    position: absolute;
+    top: 100px;
+    left: 690px;
+    z-index: 2;
+    overflow: hidden;
+    transform: scaleY(0.075);
+}
+

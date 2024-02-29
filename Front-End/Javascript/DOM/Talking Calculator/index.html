@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <center>
+                <h1>🤖Talking Calculator</h1>
+                <div class="calculator_body">
+                    <input type="text" placeholder="Calculator" value='' id="input">
+                    <div class="buttons", id="buttons">
+                        <button onclick="keypress('C')" class="clear", id="clear">C</button>
+                        <button onclick="keypress(1)" class="_1", id="_1">1</button>
+                        <button onclick="keypress(2)" class="_2", id="_2">2</button>
+                        <button onclick="keypress(3)" class="_3", id="_3">3</button>
+                        <button onclick="keypress(4)" class="_4", id="_4">4</button>
+                        <button onclick="keypress(5)" class="_5", id="_5">5</button>
+                        <button onclick="keypress(6)" class="_6", id="_6">6</button>
+                        <button onclick="keypress(7)" class="_7", id="_7">7</button>
+                        <button onclick="keypress(8)" class="_8", id="_8">8</button>
+                        <button onclick="keypress(9)" class="_9", id="_9">9</button>
+                        <button onclick="keypress(0)" class="_0", id="_0">0</button>
+                        <button onclick="keypress('+')" class="plus", id="plus">+</button>
+                        <button onclick="keypress('-')" class="minus", id="minus">-</button>
+                        <button onclick="keypress('*')" class="prod", id="prod">*</button>
+                        <button onclick="keypress('/')" class="divide", id="divide">/</button>
+                        <button onclick="keypress('%')" class="mod", id="mod">%</button>
+                        <button onclick="keypress('D')" class="del", id="del">D</button>
+                        <button onclick="keypress('=')" id="result", id="result">=</button>
+
+                    </div>
+                </div>
+            </center>
+            <script src="./script.js"></script>
+</body>
+</html>
