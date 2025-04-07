@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity Quiz</title>
+</head>
+<style>
+
+    /* The specificity of the following is: */
+
+    a.harryclass.rohan-class[href]:hover{
+        color: red;
+    }
+</style>
+<body>
+    <h1>a.harryclass.rohan-class[href]:hover</h1>
+    <h2>Solution</h2>
+    <pre>
+        a = anchor tag(element) = 1
+
+        harryclass = class = 10
+
+        rohan-class = class = 10
+
+        href = attribute = 10
+
+        hover = pseudo-class = 10
+
+        Therefore, Specificity = 1 + 10 + 10 + 10 + 10 = 41
+    </pre>
+
+
+</body>
+</html>

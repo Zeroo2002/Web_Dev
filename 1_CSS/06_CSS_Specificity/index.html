@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+
+    <style>
+        /* The specificity is 1 */
+        h1{
+            color: aqua;
+        }
+
+        /* The specificity is 10 */
+        .yellow{
+            color: yellow;
+        }
+
+        /* The specificity is 1 + 10 = 11 */
+        /* element + class */
+        h1.cred{
+            color: red;
+        }
+
+        /* The specificity is 1 */
+        .cpurple{
+            color: rgb(99, 2, 99);
+        }
+
+        /* The specificity is 1 */
+        [data-x=a]{
+            background-color: rgb(252, 255, 101);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+    </div>
+</body>
+</html>
