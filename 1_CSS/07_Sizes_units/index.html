@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different units to measure size</title>
+
+    <style>
+        html{
+            /* font-size of html or root is 12px */
+            font-size: 12px;
+        }
+        .first{
+            border: 2px solid black;
+            width: 80vw;
+            background-color: aqua;
+            margin: auto;
+        }
+
+        .container{
+            border: 2px solid black;
+            width: 80vw;
+            background-color: aqua;
+            /* margin: top-bottom left-right */
+            margin: 20px auto;
+
+            /* font-size = 1.5 of the root */
+            /* root's font-size = 12px */
+            font-size: 2rem;
+            min-height: 80vh;
+        }
+
+        .container p{
+            /* font-size = 1.5 of its parent */
+            /* parent's font size = 1.5 of the root */
+            font-size: 2em;
+        }
+
+        .footer{
+            border: 2px solid black;
+            width: 80vw;
+            background-color: aqua;
+            margin: auto;
+        }
+
+        div > div{
+            border: 2px solid red;
+            width: 50%;
+        }
+
+
+        /* vmin and vmax */
+/* 
+        vmin: smaller of the viewport
+        vmax: larger of the viewport */
+
+        /* in this device,
+            vmax = width
+            vmin = height
+
+            therefore, vmax = vw
+        */
+    </style>
+</head>
+<body>
+    <div class="first">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolor?
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus porro, distinctio ex quam sequi et aliquid assumenda libero eos dolorum animi accusamus laudantium! Cumque distinctio neque beatae nihil numquam consequuntur dicta aut?
+        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa nemo earum aliquam. Id itaque molestias natus aliquid nisi illo consequuntur doloribus quia nostrum blanditiis magnam similique cumque, perspiciatis dolore! Non, nostrum? Est deserunt odio repudiandae suscipit, dolor quo accusantium minus. Aspernatur atque consequatur vel. Facilis?</p> -->
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque nam consequatur, delectus fugit molestiae, voluptas quos labore est officia minus atque vitae dicta magni ex nulla distinctio. Minima omnis dignissimos voluptatum, distinctio iusto dolorem inventore provident quos sed ullam quia repudiandae adipisci maiores quis enim! Ipsa debitis ducimus quas.
+        </div>
+    </div>
+    
+    <div class="footer">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, quas!
+    </div>
+
+    
+</body>
+</html>
